@@ -13,6 +13,7 @@ module Mongoid
 
       module ClassMethods
         extend Gem::Deprecate
+        using Refinements::Extension
 
         # Give this model specific custom default storage options.
         #

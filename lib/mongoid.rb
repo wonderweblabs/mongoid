@@ -16,6 +16,7 @@ require "origin"
 require "mongo"
 
 require "mongoid/version"
+require "mongoid/refinements"
 require "mongoid/config"
 require "mongoid/loggable"
 require "mongoid/clients"
